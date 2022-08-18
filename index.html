@@ -5,18 +5,22 @@
     <link
       rel="icon"
       href="https://cdn-icons-png.flaticon.com/512/4087/4087669.png"
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+
     />
     <title>مؤشر وزن الجسم</title>
     <script defer src="./script.js"></script>
   </head>
   <body>
     <div class="container">
-      <h2>!اضغط علي</h2>
+      <h2 class="h" onmouseover="alert(Status(BMI(80, 1.8)))">!اضغط علي</h2>
       <section>
         <input id="weight" type="number" placeholder="الوزن بالكيلوجرام" />
         <input id="height" type="number" placeholder="الطول بالمتر" />
         <div id="result"></div>
-        <button>احسب</button>
+        <button onclick="calculate()">احسب</button>
       </section>
     </div>
   </body>

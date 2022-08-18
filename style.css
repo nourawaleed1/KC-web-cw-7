@@ -16,6 +16,7 @@ body {
   height: 50%;
   border: 7px solid #f0f0f0;
   background-color: white;
+  cursor: cell;
 }
 section {
   display: flex;
@@ -43,4 +44,10 @@ button {
   color: black;
   border: 1px solid #f3f3f3;
   background-color: #f0f0f0;
+}
+.h{
+  background-color:#a2d2ff ;
+  font-family: 'Lalezar', cursive;
+  font-size: 40px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
